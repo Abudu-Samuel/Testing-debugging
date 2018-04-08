@@ -20,8 +20,8 @@ describe('Fizz Buzz', () => {
     it('should return Please enter a valid number greater than 0', () => {
       assert.equal(myApp('0'), 'Please enter a valid number');
     });
-    it('should return FizzBuzz for 15', () => {
-      assert.equal(myApp(15), 'fizzBuzz');
+    it('should return fizzBuzz for 15', () => {
+      assert.equal(myApp(15), 'FizzBuzz');
     });
     it('should return Enter number greater than 0', () => {
       assert.equal(myApp('-1'), 'Enter number greater than 0');
